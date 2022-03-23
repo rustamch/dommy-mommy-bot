@@ -53,6 +53,7 @@ const startPruneTimer = async (
  * Initializes the bot.
  */
 const startBot = async () => {
+    console.log("Starting bot...");
     const records = await getRecordCollection();
     const client = new Client({ intents: [Intents.FLAGS.GUILDS] });
     client.once("ready", (event) => {
@@ -89,3 +90,5 @@ const startBot = async () => {
         }
     });
 };
+
+startBot();
