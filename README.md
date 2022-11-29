@@ -1,2 +1,2 @@
-# Dommy Mommy bot 
+# Prune bot 
 The bot to prune inactive members.
